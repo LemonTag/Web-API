@@ -1,23 +1,39 @@
-Body {
-    body {
-        padding: 25px;
-        background-color: white;
-        color: black;
-        font-size: 25px;
-      }
-      
-      .dark-mode {
-        background-color: black;
-        color: white;
-      }
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.left-column {
+    border-left: 6px solid black;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+}
+
+.right-column {
+    border-left: 6px solid black;
+    height: 500px;
+    position: absolute;
+    right: 51%;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-  
+
 }
 
+h2 {
+    font-size: 15px;
+}
 
 .dot {
     height: 25px;
@@ -25,11 +41,13 @@ Body {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-  }
+}
 
-  .circle{
-    width:  200px;
+.circle {
+    width: 200px;
     height: 200px;
     background-color: yellow;
     border-radius: 100px;
 }
+
+
