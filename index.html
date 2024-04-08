@@ -5,73 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="stylesheet" href="./Assets/css/blog.css">
     <link rel="stylesheet" href="./Assets/css/form.css">
     <title>My first Blog</title>
 </head>
 
 <body>
+    <header>
 
-    <div class="horizontal ">
-        <DIV STYLE="background-color:#000000; height:5px; width:100%;"></DIV> <br>
+        <button onclick="myFunction()">Toggle dark mode</button>
+    </header>
 
-        <DIV STYLE="background-color:#000000; height:5px; width:100%;"></DIV>
-    </div>
 
-    <div class="left-column">
-        <DIV STYLE="background-color:#000000" ;></DIV>
+    <main>
+        <div class="horizontal ">
+            <div style="background-color:#000000; height:5px; width:100%;"></div>
 
-        
-    <div class="card">
-        <h1> What's on your mind?</h1>
-<form>
-    <h2>Username:</h2> <input type = "text" required 
-    oninvalid = "this.setCutomValidity('name ?')"
-    oninput = "this.setCutomValidity('')"> <br>
-  
-    <h2>Tile:</h2> <input type = "text" required 
-    oninvalid = "this.setCutomValidity('Tile ?')"
-    oninput = "this.setCutomValidity('')"> <br>
-    
-    <h2>Content:</h2> <input type = "text" required 
-    oninvalid = "this.setCutomValidity('Need some content?')"
-    oninput = "this.setCutomValidity('')"> <br>
+            <div style="background-color:#000000; height:5px; width:100%;"></div>
+        </div>
 
-    
-    <button type="submit" value="Submit">Submit</button>
+        <div class="left-column">
+            <div style="background-color:#000000" ;></div>
 
-</form>
 
-        <!-- <id>Username</id>
+            <div class="card">
+                <h1> What's on your mind?</h1>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" />
+                    <label for="title">Title</label>
+                    <input type="text" id="title" />
+                    <label for="title">Content</label>
+                    <textarea type="text" id="content" row="3"></textarea>
+                    <input type="submit" value="Submit" />
+                </form>
+                <!-- <form>
+                    <h2>Username:</h2> <input type="text" required oninvalid="this.setCutomValidity('name ?')"
+                        oninput="this.setCutomValidity('')"> <br>
+
+                    <h2>Tile:</h2> <input type="text" required oninvalid="this.setCutomValidity('Tile ?')"
+                        oninput="this.setCutomValidity('')"> <br>
+
+                    <h2>Content:</h2> <input type="text" required
+                        oninvalid="this.setCutomValidity('Need some content?')" oninput="this.setCutomValidity('')">
+                    <br>
+
+                   
+    <form action = "blog.html"><input type = "submit"> </form> -->
+                <!-- <div> -->
+
+                <!-- <button type="submit" value="Submit">Submit</button> -->
+                <!-- <button id=""  -->
+                <!-- <a href=" /Assets/html/blog.html"> <button> Submit Button </button></a> -->
+                <!-- </div> -->
+
+
+                <!-- </form> -->
+
+                <!-- <id>Username</id>
         <textarea cols="30" rows="1" id="msg"></textarea>
         <id> Title</id>
         <textarea cols="30" rows="1" id="msg"></textarea>
         <id>Content</id>
         <textarea cols="30" rows="1" id="msg"></textarea> -->
-    </div>
-    </div>
+            </div>
+        </div>
 
-    <div class="right-column">
-        <DIV STYLE="background-color:#000000" ;></DIV>
-
-        
-    </div>
+        <div class="right-column">
+            <div style="background-color:#000000" ;></div>
 
 
+        </div>
 
-    <button onclick="myFunction()">Toggle dark mode</button>
-
-
-
-    <div class=circle></div>
-    <h3> My First Blog</h3>
-    </div>
+        <div class=circle></div>
+        <h3> My First Blog</h3>
+        </div>
 
 
 
-    <script scr= "./Assets/js/form.js"></script>
-    <script scr="./Assets/js/form.js"></script>
-    <script scr="./Assets/js/form.js"></script>
+        <footer>
+            <h3>Made with love </h3>
+        </footer>
+    </main>
+    <script src="./Assets/js/logic.js"></script>
 </body>
 
 </html>
