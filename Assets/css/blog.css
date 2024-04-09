@@ -20,10 +20,7 @@ h2 {
    
 }
 
-h3 {
-    display: flex;
-    justify-content: center;
-}
+
 .blog {
     border-width:2px; 
     border-style:solid;
