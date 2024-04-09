@@ -16,7 +16,6 @@
         <button onclick="myFunction()">Toggle dark mode</button>
     </header>
 
-
     <main>
         <div class="horizontal ">
             <div style="background-color:#000000; height:5px; width:100%;"></div>
@@ -30,16 +29,14 @@
 
             <div class="card">
                 <h1> What's on your mind?</h1>
-                <form action="/blog.html ">
+                <form>
                     <label for="username">Username:</label>
                     <input type="text" id="username" />
                     <label for="title">Title</label>
                     <input type="text" id="title" />
                     <label for="content">Content</label>
                     <textarea type="text" id="content" row="3"></textarea>
-                    <div class="alert">
-                        <button onclick="showAlert()">Submit</button>
-                    </div>
+                    <input type="submit" id="submit">
                 </form>
             </div>
         </div>
