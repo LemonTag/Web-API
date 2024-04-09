@@ -7,7 +7,6 @@ const container = document.querySelector('container');
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
-    
  }
 
  const button = document.getElementById("clickable")

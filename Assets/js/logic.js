@@ -35,6 +35,8 @@ function showAlert(event) {
         localStorage.setItem('blogEnties', JSON.stringify(blogEntries))
         console.log("nextPage");
     }
+
+
 }
 submitPress = document.getElementById("submit");
 submitPress.addEventListener("click", showAlert);

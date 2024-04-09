@@ -10,9 +10,6 @@ body {
     color: white;
 }
 
-
-
-
 .left-column {
     border-left: 6px solid black;
     height: 500px;
@@ -34,7 +31,6 @@ body {
 
 }
 
-.form-submit-button {}
 
 h2 {
     display: flex;
