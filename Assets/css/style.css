@@ -26,12 +26,16 @@ body {
 
 
 .card {
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
     padding: 20px;
 
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
 
 h2 {
     display: flex;
@@ -60,4 +64,10 @@ h3 {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
