@@ -24,6 +24,7 @@ body {
     right: 51%;
 }
 
+
 .card {
     flex-wrap: wrap;
     flex-direction: column;
@@ -52,9 +53,11 @@ h2 {
     height: 500px;
     background-color: yellow;
     border-radius: 500px;
+    flex-wrap: wrap;
 }
 
 h3 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }

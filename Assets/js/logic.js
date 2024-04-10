@@ -36,7 +36,16 @@ function showAlert(event) {
         console.log("nextPage");
     }
 
+// function username() {
+//   const mytimeout = setTimeout( warning, 3000);
+//   console.log("timer");
 
+//   function alert() {
+//     document.getElementById("submit");
+//   }
+// }
+
+    
 }
 submitPress = document.getElementById("submit");
 submitPress.addEventListener("click", showAlert);

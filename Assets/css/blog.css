@@ -11,36 +11,43 @@ body {
 }
 
 div{
+    flex-wrap: wrap;
     border-width:1px; 
     border-style:solid;
 }
 
 h2 {
+    flex-wrap: wrap;
     border-width:3px;
    
 }
 
 
 .blog {
+    flex-wrap: wrap;
     border-width:2px; 
     border-style:solid;
 }
 .title2 {
+    flex-wrap: wrap;
     border-width:2px; 
     border-style:solid;
 }
 
 .title3 {
+    flex-wrap: wrap;
     border-width:2px; 
     border-style:solid;
 }
 
 .Here {
+    flex-wrap: wrap;
     border-width:2px; 
     border-style:solid;
 }
 
 P {
+    flex-wrap: wrap;
     border-width:3px;
     padding: 50px;
     background-color: lightgray;
